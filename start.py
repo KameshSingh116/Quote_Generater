@@ -14,4 +14,16 @@ while(choice=='y'):
            "The spiritual journey is the unlearning of fear and the acceptance of love.",
            "Let yourself be silently drawn by the strange pull of what you really love. It will not lead you astray."
            ]
-        
+    
+    out=random.choice(quote)
+    print(out)
+
+    choice=input("Do you want to generate another quote ?:(y/n):")
+    if(choice=='y'):
+        continue
+    else:
+        break
+
+
+#Project complete
+#Radhe Radhe
